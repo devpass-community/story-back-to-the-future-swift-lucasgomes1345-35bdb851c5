@@ -12,7 +12,7 @@ final class MainViewController: UIViewController {
 
     init() {
         super.init(nibName: nil, bundle: nil)
-
+        print(Date().formattedDate())
     }
 
     required init?(coder: NSCoder) {
